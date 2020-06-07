@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amazon S3</title>
+</head>
+<body style="background-color:wheat">
+	<h1 style="text-align: center;">Deploy your Frontend on Amazon S3</h1>
+	<h3 style="text-align: center;color: red">Using Vs Code for deployment</h3>
+
+	<br>
+	<br>
+	<h4 style="color: red"> If you are using angular project then follow the below mentioned steps after building your project for production-<br>
+		Process to build for production are-
+		<ol>
+			<li>In your Vs Code node console and under your angular folder type : ng build --prod
+			</li>
+			<li>Now after sucessfull build  Dist folder will be created and you need to upload all the files generated
+			(Mentioned below where to upload)</li>
+		</ol></h4>
+	<div style="padding: 10px">
+		<h4>Normal App deployment on GitHub Pages</h4>
+
+		<ol >
+			<li>Go to - https://aws.amazon.com/</li>
+			<li>Create Account in AWS and search For S3.</li>
+			<li>Create Bucket</li>
+			<li>In DNS name - Enter Your Project Name</li>
+			<li>After Creating Bucket</li>
+			<li>Go To Public access and the turn off your block all public access and save It</li>
+			<li>Go To Bucket Policy and then copy and Paste Below Mentioned Code and replace yourBucketName word to your Bucket Name  and Save It<pre style="color: red">
+				{
+					"Version": "2012-10-17",
+					"Statement": [
+					{
+						"Sid": "PublicRead",
+						"Effect": "Allow",
+						"Principal": "*",
+						"Action": "s3:GetObject",
+						"Resource": "arn:aws:s3:::yourBucketName/*"
+					}
+					]
+				}
+			</pre></li>
+			<li>Now Go to Properties</li>
+			<li>Select Satic website hosting</li>
+			<li>Give the Name of Index Document and Error Document.<br>
+				<b>Example </b>index.html for both the filed if you have not created Error.html<br>
+				Error.html is not mandatory You can use index.html for both.
+			</li>
+			<li>Now Save Without selcting any radio button or Redirection rules.</li>
+			<li>Now Re open the Satic website hosting and you will get a link on the head of the card of Satic website hosting</li>
+			<li>Bingo!! you have sucessfully hoisted you website.</li>
+		</ol>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Git Hub Pages</title>
+</head>
+<body style="background-color:wheat">
+	<h1 style="text-align: center;">Deploy on Git Hub</h1>
+	<h3 style="text-align: center;color: red">Using Vs Code for deployment</h3>
+	<div style="padding: 10px">
+		<h4>Normal Appdeployment on GitHub Pages</h4>
+
+	<ol >
+		<li>Save your all files in one folder and most important main html as <b>index.html</b></li>
+		<li>Create a repository on Git Hub </li>
+		<li>Create your Readme File on github</li>
+		<li>Upload All your Files on Git Hub</li>
+		<li>Go To the settings of the repository you want to publish</li>
+		<li>Got to GitHub Pages and select <b>Master branch</b> in dropdown</li>
+		<li>Wait for Some minute and it will reflect</li>
+
+	</ol>
+	</div>
+
+	<hr>
+
+	<div style="padding: 10px">
+		<h4>Angular App deployment on GitHub Pages</h4>
+	<ol>
+		<li>git init</li>
+		<li>git add README.md</li>
+		<li>git commit -m "first commit"</li>
+		<li>git remote add origin https://github.com/Abhay304/demo.git ("projectName")</li>
+		<li>git push -u origin master</li>
+		<li>npm i -g angular-cli-ghpages --save</li>
+		<li>ng build --prod --base-href "https://username.github.io/repository_name/"
+		<br><b>Example</b> ng build --prod --base-href "https://Abhay304.github.io/Angular_deploy_demo/"</li>
+		<li>ngh --dir=dist/[project-name] Or angular-cli-ghpages</li>
+		<li>Check the settings and under that Git Hub Pages</li>
+	</ol>
+  </div>
+
+</body>
+</html>

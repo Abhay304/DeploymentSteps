@@ -1,0 +1,50 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Amazon Elastic Bean Stalk</title>
+	</head>
+	<body style="background-color:wheat">
+		<h1 style="text-align: center;">Deploy your server file on Amazon Elastic Bean Stalk</h1>
+		<h3 style="text-align: center;color: red">Using Vs Code for deployment</h3>
+
+		<div style="padding: 10px">
+			<h4>Deployment Server Files On Amazon S3</h4>
+			<ol>
+				<li>Go to - <b>https://aws.amazon.com/</b></li>
+				<li>Create account in AWS and search for AWS Elastic Beanstalk.</li>
+				<li>Click on Create Application.</li>
+				<li>Give Your Application name and select your Platform <br>
+					<b>I have selected Node Js as I mostly use Node.js </b>for my projects.
+					<pre>
+{
+	"name": "website",
+	"version": "1.0.0",
+	"private": true,
+	"dependencies": {
+	"body-parser": "^1.19.0",
+	"express": "^4.17.1",
+	"mongoose": "^5.9.12"
+	}
+}
+				</pre></li>
+				<li>Click on upload your Code.</li>
+				<li>Uploading Steps are mentioned below.</li>
+				<li>Click on your Local file.</li>
+				<li>Now Create Application.</li>
+				<li>Now re open the Satic website hosting and you will get a link on the head of the card of static website hosting</li>
+				<li><b>Bingo!!</b> you have sucessfully hoisted you server.</li>
+			</ol>
+			<hr>
+			<h4>Uploading Steps</h4>
+			<ol>
+				<li>Go to your coding files folder where you have <b>server.js and app.js</b> files.</li>
+				<li>Create a <b>package.json</b> file</li>
+				<li>Create a Procfile<br>
+					a. Procfile content - <b> web: node server.js</b><br>
+				b. Save the file with name procfile without any extension</li>
+				<li>Now make a Zip file with the name <b>Archive and .zip extension</b>.</li>
+				<li>Upload Your Archive.zip into the AWS Elastic Beanstalk.</li>
+			</ol>
+		</div>
+	</body>
+	</html>
