@@ -22,7 +22,22 @@
 		<li>Now click on collections and then Create DataBase(This is your dbname) and then create your schema also.</li>
 		<li>Now Your MongoDb is configured.</li>
 		<li>Now Just connect mongoDb with your application.</li>
+		
+	
+	<li>Error( querySrv ETIMEOUT _mongodb._tcp.cluster0-juap7.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (dns.js:206:19) {
+  errno: 'ETIMEOUT',
+  code: 'ETIMEOUT',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0-juap7.mongodb.net' ) Or (DNSHostNotFound in your mongoDB shell)
+		I am writing this answer after researching on many websites and even contacted MongoDB support.
 
+The problem is regarding the DNS server of your wifi. Kindly change your wifi or use the mobile hotspot and also whitelist the current connected IP on MongoDB, It will surely help.
+
+
+or Change the DNS of your wifi.
+
+Happy coding !!!</li>
 	</ol>
 	</div>
 </body>
