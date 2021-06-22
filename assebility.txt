@@ -1,0 +1,44 @@
+We should use shapes and not only dependent on color.
+we can use shapes in graph.
+proper contrast guideliness need to be followed.
+
+animation close or slow down option should be there.
+content should not be dependent on animation.
+Do not use too much of flashing as it causes diziness/headache
+
+we can remove default focus state like outline from <a> but we have to design a good custom focus state like bordering the tag.
+
+Important buttons should be accessible from keyboard only.All the imp task should be done using keyboard.
+keyboard trap should be taken care off with good javascript.
+
+good working gestures.
+
+If we are including any imgaes/video/audio provide a basic description about that on the same page, if it is imp then write the whole transcript.
+
+use correct alt for correct talk back.
+
+Label is mabdatory for the input fields.
+If you are using radio it should by accesible on the whole text label of radio.
+
+Resize text without overlapping or hdding text content.
+
+Use proper tag with the use case.
+
+The :focus state only applies to focusable elements, namely <a>, <button>, <input>, <textarea>, <select>, and <area>.
+
+NVDA is screen reader used for accessibilty testing. two modes are there browse mode and focus mode.
+
+
+------------------------
+Types of Disablity-
+Visual
+Deaf and Hard of Hearing -- Captioning, Transcription , Open and Closed.
+Congnitive - memory , Attention , Problem Solving , Reading
+Motor - keybord browsimg , eye tracking , voice recogisation
+
+WCAG - web content accesbility guidelines
+Principles - 1. Perceivable -- add must alt tag, providing appropirate content , do not only give color representation.
+							  contrast ratio - 5:1 , avoid auto play ,
+			2. Operable -- Do everthing using keyboard that can be done using mouse , no Time contranits should be given
+			3. Understandable --  avoiud jargons ,use shorter paragraph , avoid jargons , page focus is always visible , provide 						help option
+			4. Robust -- content must make sense out of context.

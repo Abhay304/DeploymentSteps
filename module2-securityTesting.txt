@@ -1,0 +1,45 @@
+OWASP - The Open Web Application Security Project® (OWASP) is a nonprofit foundation that works to improve the security of software.
+
+Red Team (they are the breakers , rules breakers , thinking of criminal hackers) + Blue Team (They are the builders , they know the application better , blue teamers understand attack patterns, but they're more interested in putting the right combination of controls in place to prevent, detect, and respond quickly to any and all attempts to break an application.) = Purple Team.
+
+
+Scan Testing - 
+Pen testing - 
+	WhiteBox Testing - Considerable amount of internal information about the target application. This often includes reports from other assessments, authenticated web app vulnerability scan reports, infrastructure diagrams, and valid app credentials.
+
+	Gray Box Testing - me internal knowledge, enough to know where to focus their testing efforts while still preserving as much of the unauthorized outsider perspective as possible. The amount of information shared with the tester is often negotiated during the pre-engagement stage. 
+
+	Black Box Testing - Black box penetration test, the pen tester is treated as an unauthorized outsider. The tester has no knowledge of the web application or the security controls behind it. The tester's goal is compromise the app from the perspective of an actual attacker with the same restrictions. While this approach may be more representative of real world attacks.
+
+Web app proxies - debug web applications by capturing network traffic between the Internet and test computers. The tool enables 				  you to inspect incoming and outgoing data to monitor and modify requests and responses before the browser 				      receives them 
+                  Exmaple- Apps evaluate the security of web-based like Fiddler2 , Burp Suite , Samurai Web Testing Framework(WTF) . It help to incepts the We app.
+
+Top 10 Web Application Security Risks
+
+A1:2017-Injection: Injection flaws, such as SQL, NoSQL, OS, , occur when untrusted data is sent to an interpreter as part of a command or query. The attacker’s hostile data can trick the interpreter into executing unintended commands or accessing data without proper authorization.
+
+A2:2017-Broken Authentication: Application functions related to authentication and session management are often implemented incorrectly, allowing attackers to compromise passwords, keys, or session tokens, or to exploit other implementation flaws to assume other users’ identities temporarily or permanently.
+
+A3:2017-Sensitive Data Exposure: Many web applications and APIs do not properly protect sensitive data, such as financial, healthcare, theft and steal Data.
+
+A4:2017-XML External Entities (XXE): Many older or poorly configured XML processors evaluate external entity references within XML documents. External entities can be used to disclose internal files using the file URI handler, internal file shares, internal port scanning, remote code execution, and denial of service attacks.
+
+A5:2017-Broken Access Control: Restrictions on what authenticated users are allowed to do are often not properly enforced. Attackers can exploit these flaws to access unauthorized functionality and/or data, such as access other users’ accounts, view sensitive files, modify other users’ data, change access rights, etc.
+
+A6:2017-Security Misconfiguration: Security misconfiguration is the most commonly seen issue. This is commonly a result of insecure default configurations, incomplete or ad hoc configurations, open cloud storage, misconfigured HTTP headers, and verbose error messages containing sensitive information. Not only must all operating systems, frameworks, libraries, and applications be securely configured, but they must be patched/upgraded in a timely fashion.
+
+A7:2017-Cross-Site Scripting XSS: XSS flaws occur whenever an application includes untrusted data in a new web page without proper validation or escaping, or updates an existing web page with user-supplied data using a browser API that can create HTML or JavaScript. XSS allows attackers to execute scripts in the victim’s browser which can hijack user sessions, deface web sites, or redirect the user to malicious sites.
+
+A8:2017-Insecure Deserialization: Insecure deserialization often leads to remote code execution. Even if deserialization flaws do not result in remote code execution, they can be used to perform attacks, including replay attacks, injection attacks, and privilege escalation attacks.
+
+A9:2017-Using Components with Known Vulnerabilities: Components, such as libraries, frameworks, and other software modules, run with the same privileges as the application. If a vulnerable component is exploited, such an attack can facilitate serious data loss or server takeover. Applications and APIs using components with known vulnerabilities may undermine application defenses and enable various attacks and impacts.
+
+A10:2017-Insufficient Logging & Monitoring: Insufficient logging and monitoring, coupled with missing or ineffective integration with incident response, allows attackers to further attack systems, maintain persistence, pivot to more systems, and tamper, extract, or destroy data. Most breach studies show time to detect a breach is over 200 days, typically detected by external parties rather than internal processes or monitoring.
+
+
+
+Q.) What is XSS ?
+Ans- 
+
+Q.) What is Csrf ?
+Ans- 

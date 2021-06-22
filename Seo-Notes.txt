@@ -1,0 +1,8 @@
+What is SEO ?
+	SEO stands for “search engine optimization.” In simple terms, it means the process of improving your site to increase its 	visibility for relevant searches.
+
+What is SILO ?
+	A SILO structure is a type of deep site architecture that I find to be very logically organized. The hierarchical groupings are determined by topics and subtopics.
+
+Crawl budget is the number of pages that Google will crawl. This is really important for big sites and sites that need updates often.
+

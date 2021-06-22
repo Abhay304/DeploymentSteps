@@ -1,0 +1,33 @@
+Sl.	Name           Link						   Npm version
+
+Css Libraries-
+1. Tailwind css -  https://tailwindcss.com/ -  npm install tailwindcss
+2. Bootstrap    -  https://getbootstrap.com/docs/3.4/ - npm install bootstrap@3
+3. MaterializeCSS - https://materializecss.com/ - npm i @materializecss/materialize
+
+Image Optimizations/library-
+1. Cloudinary - https://cloudinary.com/ --- Online api
+2. Squoosh - https://squoosh.app/ --- for changing files with lots of cutomization -- Do not support multiple
+3. Cloud Convert - https://cloudconvert.com/ - npm install --save cloudconvert --- Support multiple Upload
+
+Hositing platform
+1. Heroku  -  https://www.heroku.com/ 
+2. Netlify -  http://netlify.com/
+3. Git Pages - https://pages.github.com/
+4. vercel - https://vercel.com/
+5. AWS --- Paid
+
+Authentication
+1. Auth0 - https://auth0.com/ - npm install @auth0/auth0-react
+2. Firebase - https://firebase.google.com/docs/auth/web/password-auth - npm i firebase and npm install @react-firebase/auth
+3. using jwt and mongoDB
+
+
+DataBase
+1. MongoDb - https://www.mongodb.com/
+2. Firebase - https://firebase.google.com/docs/database
+
+
+Icons-
+1. heroicons - https://heroicons.com/
+2. Flaticon - https://www.flaticon.com/

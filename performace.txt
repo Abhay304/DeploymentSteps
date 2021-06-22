@@ -1,0 +1,31 @@
+Transform property does not paint, it just create a composite layder that is good for the browser.
+Try to Use Transfrom proprty while using crearting sidebar animation.
+( will-change: transform, opacity;) property helps creating a new layer or u can use (transform :translateZ(0))
+
+When you change a CSS properties value, the browser needs to react to your change. Some values change the layout of the page.
+
+Images are not the part of citical rendering resource.
+Use Async and defer in page and also put js file after closing body tag.
+
+<link rel="preload" as="font" href="/assets/fonts/3A1C32_0_0.woff2" type="font/woff2" crossorigin="crossorigin">
+
+
+Performance Goals-
+Response - 100ms
+animation - 10ms
+Idle - 50ms
+Load - 1s
+
+Latency is the delay between a user's action and a web application's response to that action, also referred to as total round trip time.
+
+Measuring Network on different tools
+Chrome Dev tools (Network slection 3g,fast 3g and all)
+Network Link conditioner for Mac
+Charles Proxy (Windows)
+Android Virtual emultor of android studio
+
+
+Isomorphic render is the solution for rendering that is entry point will the server side and after that every thing will be client side.
+
+
+https://csstriggers.com/

@@ -1,0 +1,27 @@
+Least Privilage - We do not give access to each and every one , we give limited acess according to the use.
+
+Defence In Depth - There should be multi level of check point.
+				   example --- A passenger shows their ID and boarding pass to an agent, and then they pass through a combination of metal detectors and X-ray machines. More agents are on hand to perform additional checks, such as to manually inspect bags and conduct swab tests to detect chemical residue.
+
+Regulatee requests - The Https reuqests should be according to the use. I we need to post the Data we need to use POST, If we are requesting the data we need to use GET.
+
+Validate Inputs- Validate Each inputs .several validation needs to be performed while creating the input fields. like -            					email validation , number validation etc.
+
+Sanitize Data - Sanitizing will remove any illegal character from the data. Dom purify
+				Links of you tube - https://www.youtube.com/watch?v=Cj7-i-S4TwA
+
+Keeep credentials private - Use of SSH is best way to do and we should use enironment variable to achieve this and never commit you credential files.
+
+Keep error messages vague - We did nout need to show error message that the person will get the idea of code. We should use generic type of error message unless its is mandatory.
+
+Smart logging - Logging to debug the action when neede. Date and Time , Source(IP) , Action and Target , URL , parameters , 				    cookies , Backtrace.
+
+Using of Password- MFA shoukd be used , dual authentication is always usefull. characters limits is 12  minimum. 15 characters or 					 more would be even better. It's good to use character variety, upper case, lower case, numbers, and symbols, but				    variety is not as important as the length. f you use both length and variety together, then a 12-character 				           password would take 9000 years to crack by hit and try rule.
+
+Few other points -
+1. we should need to store valuable data in cookie.
+2. Do prevent data manipulation from URL hash or param values we need to try few logic and unique combination pattern.
+,3. for prevention from Xss we need to do the Dom sanitization , input validation and Regulate Requests (Http), content security policy , Cookies setting : httponly, expire,secure, and use HTTPS
+4. we can use csrf token so that we can handle CSRF (Cross site request Forgery).
+5. always use ssl certification (https), Secure communication between server and user.
+6. Destroy sessions on logout.
