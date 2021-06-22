@@ -1,0 +1,25 @@
+h1,h2,h3-- Done
+
+canonical tags - Canonical tags are a powerful way to tell Google and other search engines which URLs you want them to index. They can prevent duplicate content issues if you have different versions of the same page	
+
+robot.txt -
+
+aira - (Accessible Rich Internet Applications) -Accessible Rich Internet Applications (ARIA) is a set of attributes that define ways to make web content and web applications (especially those developed with JavaScript) more accessible to people with disabilities.
+
+TTI- time To Intreactive
+TTFB - Timt To first byte
+Js profiling
+anchor tag attribite for extrernal links
+
+defer -- downloaded while parsing HTMl and executed after parsing -- line by line after downloaded
+async -- downleaded while parsing and excuted with parsing blocked -- downloaded and excuted asynchronously
+
+<a className='skip-link' href='#landing-page'> Skip to main content </a>
+
+Largest Contentful Paint (LCP) is a Core Web Vitals metric and measures when the largest content element in the viewport becomes visible.
+
+The First Contentful Paint (FCP) metric measures the time from when the page starts loading to when any part of the page's content is rendered on the screen. For this metric, "content" refers to text, images (including background images), <svg> elements, or non-white <canvas> elements
+
+The Total Blocking Time (TBT) metric measures the total amount of time between First Contentful Paint (FCP) and Time to Interactive (TTI) where the main thread was blocked for long enough to prevent input responsiveness.
+
+Speed Index measures how quickly content is visually displayed during page load.
